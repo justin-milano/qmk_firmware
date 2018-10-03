@@ -9,10 +9,10 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_BASE] = LAYOUT_ortho_4x4(
-    KC_PGUP,  KC_HOME,  KC_UP,    KC_END , \
-    KC_PGDN,  KC_LEFT,  KC_DOWN,  KC_RGHT, \
-    MO(_FN2), KC_VOLU,  KC_MPLY,  KC_MPRV, \
-    MO(_FN1), KC_VOLD,  KC_MUTE,  KC_MNXT  \
+    MO(_FN2), _______,  KC_MS_U,  _______ , \
+    MO(_FN1), KC_MS_L,  KC_MS_D,  KC_MS_R, \
+    KC_ACL1,  _______,  _______,  _______, \
+    KC_ACL2,  _______,  KC_BTN2,  KC_BTN1  \
   ),
   [_FN1] = LAYOUT_ortho_4x4(
     KC_ESC,   KC_P7,    KC_P8,    KC_P9,   \
