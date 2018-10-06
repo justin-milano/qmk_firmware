@@ -39,8 +39,9 @@ enum planck_keycodes {
   EXT_PLV
 };
 
-#define LOWER MO(_LOWER)
-#define RAISE MO(_RAISE)
+#define TAPPING_TOGGLE 2
+#define LOWER TT(_LOWER)
+#define RAISE TT(_RAISE)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
