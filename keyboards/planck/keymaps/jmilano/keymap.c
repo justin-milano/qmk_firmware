@@ -39,7 +39,6 @@ enum planck_keycodes {
   EXT_PLV
 };
 
-#define TAPPING_TOGGLE 2
 #define LOWER TT(_LOWER)
 #define RAISE TT(_RAISE)
 

@@ -3,6 +3,8 @@
 
 #include "config_common.h"
 
+#define TAPPING_TOGGLE 2
+
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(E1M1_DOOM)
     // #define STARTUP_SONG SONG(NO_SOUND)
