@@ -46,29 +46,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                              KC_BSPC, MO(L2),  KC_END,
 /* right hand
  *        +-----+-----+-----+-----+-----+-----+-------+
- *        |LCK-2|  6  |  7  |  8  |  9  |  0  |   -   |
+ *        | f2  |  7  |  8  |  9  |  0  |  -  |   =   |
  *        +-----+-----+-----+-----+-----+-----+-------+
- *        |  [  |  Y  |  U  |  I  |  O  |  P  |   ]   |
+ *        |  ]  |  Y  |  U  |  I  |  O  |  P  |   \   |
  *        |     +-----+-----+-----+-----+-----+-------+
  *        +-----+  H  |  J  |  K  |  L  |  ;  |   '   |
  *        | f1  +-----+-----+-----+-----+-----+-------+
  *        |     |  N  |  M  |  ,  |  .  |  /  | RSHIFT|
  *        +-----+-----+-----+-----+-----+-----+-----+-+
- *                    |LEFT |DOWN | UP  |RIGHT| RGUI|
+ *                    |LEFT |DOWN | UP  |RIGHT| CTRL|
  *    +-----+-----+   +-----+-----+-----+-----+-----+
- *    | RALT|RCTRL|
+ *    |LCK-2| PRSC|
  *    +-----+-----+-----+
  *    | PGUP|     |     |
  *    +-----+ ENT | SPC |
  *    | PGDN|     |     |
  *    +-----+-----+-----+
  */
-             TG(L2),  KC_6,   KC_7,    KC_8,    KC_9,   KC_0,     KC_MINS,
-             KC_LBRC, KC_Y,   KC_U,    KC_I,    KC_O,   KC_P,     KC_RBRC,
+             MO(L2),  KC_7,   KC_8,    KC_9,    KC_0,   KC_MINS,  KC_EQL,
+             KC_RBRC, KC_Y,   KC_U,    KC_I,    KC_O,   KC_P,     KC_BSLS,
                       KC_H,   KC_J,    KC_K,    KC_L,   KC_SCLN,  KC_QUOT,
              MO(L1),  KC_N,   KC_M,    KC_COMM, KC_DOT, KC_SLSH,  KC_RSFT,
-                              KC_LEFT, KC_DOWN, KC_UP,  KC_RIGHT, KC_RGUI,
-             KC_RALT, KC_RCTL,
+                              KC_LEFT, KC_DOWN, KC_UP,  KC_RIGHT, KC_RCTL,
+             TG(L2),  KC_PSCR,
              KC_PGUP,
              KC_PGDN, KC_ENT, KC_SPC
     ),
