@@ -19,31 +19,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /*
  * left hand
  *    +-------+-----+-----+-----+-----+-----+-----+
- *    |   =   |  0  |  2  |  3  |  4  |  5  | ESC |
+ *    |   `   |  1  |  2  |  3  |  4  |  5  |  6  |
  *    +-------+-----+-----+-----+-----+-----+-----+
- *    |   \   |  Q  |  W  |  E  |  R  |  T  |LCK-1|
+ *    |  TAB  |  Q  |  W  |  E  |  R  |  T  |  [  |
  *    +-------+-----+-----+-----+-----+-----+     |
- *    |  TAB  |  A  |  S  |  D  |  F  |  G  +-----+
+ *    |  ESC  |  A  |  S  |  D  |  F  |  G  +-----+
  *    +-------+-----+-----+-----+-----+-----+ f1  |
- *    | LSHIFT|  Z  |  X  |  C  |  V  |  B  |     |
+ *    | SHIFT |  Z  |  X  |  C  |  V  |  B  |     |
  *    +-+-----+-----+-----+-----+-----+-----+-----+
- *      |LGUI |  `  |  \  |LEFT |RIGHT|
+ *      |LCTRL| DEL | INS | WIN | ALT |
  *      +-----+-----+-----+-----+-----+   +-----+-----+
- *                                        |LCTRL| LALT|
+ *                                        |CAPS |LCK-2|
  *                                  +-----+-----+-----+
  *                                  |     |     | HOME|
- *                                  |BKSPC| DEL +-----+
+ *                                  |BKSPC| f2  +-----+
  *                                  |     |     | END |
  *                                  +-----+-----+-----+
  */
-        KC_EQL,  KC_1,   KC_2,    KC_3,    KC_4,    KC_5, KC_ESC,
-        KC_BSLS, KC_Q,   KC_W,    KC_E,    KC_R,    KC_T, TG(L1),
-        KC_TAB,  KC_A,   KC_S,    KC_D,    KC_F,    KC_G,
+        KC_GRV,  KC_1,   KC_2,    KC_3,    KC_4,    KC_5, KC_6,
+        KC_TAB,  KC_Q,   KC_W,    KC_E,    KC_R,    KC_T, KC_LBRC,
+        KC_ESC,  KC_A,   KC_S,    KC_D,    KC_F,    KC_G,
         KC_LSFT, KC_Z,   KC_X,    KC_C,    KC_V,    KC_B, MO(L1),
-        KC_LGUI, KC_GRV, KC_BSLS, KC_LEFT, KC_RGHT,
-                                                      KC_LCTL, KC_LALT,
+        KC_LCTL, KC_DEL, KC_INS,  KC_LGUI, KC_LALT,
+                                                      KC_CAPS, TG(L2),
                                                                KC_HOME,
-                                             KC_BSPC, KC_DELT, KC_END,
+                                             KC_BSPC, MO(L2),  KC_END,
 /* right hand
  *        +-----+-----+-----+-----+-----+-----+-------+
  *        |LCK-2|  6  |  7  |  8  |  9  |  0  |   -   |
