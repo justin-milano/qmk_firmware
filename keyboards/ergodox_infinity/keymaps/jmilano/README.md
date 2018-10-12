@@ -1,6 +1,7 @@
-# Copy of Input Club ErgoDox Infinity Layout
+# Qu4z can haz ergodox
 
-A basic ErgoDox layout that duplicates the default Input Club layout
+Duplicates the layout I made for myself in the configurator that I:C will probably stop supporting any day now.
+More importantly: All of my keyboards' firmware now builds from the same codebase!
 
 ## Features
 
@@ -15,9 +16,9 @@ Base Layers
 1. Put your board in DFU mode with either the button on the bottom, or with a software key in your current firmware
 2. Flash left half:
     ```bash
-    make ergodox_infinity:input_club:dfu-util
+    make ergodox_infinity:jmilano:dfu-util
     ```
 3. Flash right half:
     ```bash
-    make ergodox_infinity:input_club:dfu-util MASTER=right
+    make ergodox_infinity:jmilano:dfu-util MASTER=right
     ```
