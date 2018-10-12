@@ -103,11 +103,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                              _______, _______, _______,
 /* right hand
  *        +-----+-----+-----+-----+-----+-----+-------+
- *        | f12 | f6  | f7  | f8  | f9  | f10 |       |
+ *        | L2  | f7  | f8  | f9  | f10 | f11 | FLASH |
  *        +-----+-----+-----+-----+-----+-----+-------+
  *        |     |     |     |     |     |     |       |
  *        |     +-----+-----+-----+-----+-----+-------+
- *        +-----+     |     |     |     |     |       |
+ *        +-----+  ←  |  ↓  |  ↑  |  →  |     |       |
  *        |     +-----+-----+-----+-----+-----+-------+
  *        |     |     |     |     |     |     |       |
  *        +-----+-----+-----+-----+-----+-----+-----+-+
@@ -120,14 +120,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *    |     |     |     |
  *    +-----+-----+-----+
  */
-       KC_F12,  KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-                KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-                         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,
-       KC_TRNS, KC_TRNS,
-       KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_TRNS
+       MO(L2),    KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,   RESET,
+       _______, _______, _______, _______, _______, _______, _______,
+                KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, _______, _______,
+       _______, _______, _______, _______, _______, _______, _______,
+                         _______, _______, _______, _______, _______,
+       _______, _______,
+       _______,
+       _______, _______, _______
 ),
 [L2] = LAYOUT_ergodox(
 /* Left hand
