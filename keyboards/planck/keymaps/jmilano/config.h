@@ -13,6 +13,7 @@
 #define MOUSEKEY_WHEEL_DELAY 0
 
 #ifdef AUDIO_ENABLE
+    #define AUDIO_CLICKY
     #define STARTUP_SONG SONG(USSR_ANTHEM)
     // #define STARTUP_SONG SONG(NO_SOUND)
 
