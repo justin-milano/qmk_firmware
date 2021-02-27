@@ -1,3 +1,12 @@
+#undef TAPPING_TOGGLE
+#define TAPPING_TOGGLE 2
+
+#undef MOUSEKEY_DELAY
+#undef MOUSEKEY_INTERVAL
+#undef MOUSEKEY_MAX_SPEED
+#undef MOUSEKEY_TIME_TO_MAX
+#undef MOUSEKEY_WHEEL_DELAY
+
 // mousekey tune borowed from planck:pickle_jr
 #define MOUSEKEY_DELAY       0
 #define MOUSEKEY_INTERVAL    16

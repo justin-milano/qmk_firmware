@@ -1,14 +1,13 @@
-# Qu4z can haz ergodox
+# jmilano's ergodox_infinity keymap
 
-Duplicates the layout I made for myself in the configurator that I:C will probably stop supporting any day now.
-More importantly: All of my keyboards' firmware now builds from the same codebase!
+The keymap for my daily driver...
 
 ## Features
 
 Base Layers
 
 - QWERTY
-- Function Keys
+- Function Keys (mousekeys on this layer as well)
 - Numpad
 
 ## Building and flashing
