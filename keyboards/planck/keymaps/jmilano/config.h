@@ -3,8 +3,6 @@
 
 #include "config_common.h"
 
-#define TAPPING_TOGGLE 2
-
 // mousekey tune borowed from planck:pickle_jr
 #define MOUSEKEY_DELAY       0
 #define MOUSEKEY_INTERVAL    16

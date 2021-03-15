@@ -54,15 +54,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | Ctrl | Home |  GUI |  Alt | Bksp | Raise|Enter |Space |Lower |prntsc|  End | Ctrl |
  * `-----------------------------------------------------------------------------------'
- *  WTF NOTE: Alt and GUI appear to be swapped in the actual layout definition below...
- *  ... However, they end up working as pictured above when flashed to the keyboard...
- *  -\_(o.O)_/-
  */
 [_QWERTY] = LAYOUT_planck_grid(
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSLS,
     KC_ESC,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
-    KC_LCTL, KC_HOME, KC_LALT, KC_LGUI, KC_BSPC, RAISE,   KC_ENT,  KC_SPC,  LOWER,   KC_PSCR, KC_END,  KC_RCTL
+    KC_LCTL, KC_HOME, KC_LWIN, KC_LOPT, KC_BSPC, RAISE,   KC_ENT,  KC_SPC,  LOWER,   KC_PSCR, KC_END,  KC_RCTL
 ),
 
 /* Colemak
